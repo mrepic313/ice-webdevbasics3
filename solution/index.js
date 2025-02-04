@@ -2,7 +2,7 @@
 
 fetch('https://cs571api.cs.wisc.edu/rest/s25/ice/chili', {
     headers: {
-        "X-CS571-ID": CS571.getBadgerId() // You may hardcode your Badger ID instead.
+        "X-CS571-ID": 'bid_101c8a9715e3109e18f06bde7a9421e4ed4a93e20d2021dfccdfc70fa4471f19' // You may hardcode your Badger ID instead.
     }
 })
 .then(res => {
